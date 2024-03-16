@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #283f4c;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #5f792e;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* #results {
+    background-color: #84acd7;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .superhero {
+    margin-bottom: 20px;
+  }
+  
+  .superhero img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+   */
+
+   #results {
+    background-color: #65aaef27;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+    justify-content: center;
+  }
+  nav {
+    margin-bottom: 20px;
+    padding: 20px; /* Add padding */
+    background-color: #a7becb; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 11.5px; /* Add border radius */
+  }
+  nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 11.5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #f99797;
+  }
+  
+  .superhero {
+    text-align: center; 
+  }
+  
+  .superhero img {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .superhero img:hover {
+    transform: scale(1.1); /* Increase the size of the image on hover */
+  }
+  
+  .superhero h2 {
+    margin-top: 10px;
+    color: #6317172d;
+  }
+  
+  .superhero p {
+    color: #d0313144;
+  }
+  .favResults{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 11.5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+
+  }
+
+  

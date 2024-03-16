@@ -1,0 +1,50 @@
+/* fav.css */
+h5{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #934444ad; /* Light gray background */
+}
+nav a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+
+.container {
+    max-width: 400px;
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #a48f8f; /* White background for container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+    border-radius: 8px; /* Rounded corners for container */
+    transition: box-shadow 0.3s ease; /* Add transition to box shadow */
+}
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+#favResults {
+    text-align: center; /* Center the content */
+}
+
+/* Styling for the image */
+#favResults img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Center the image horizontally */
+    margin: 0 auto 20px; /* Add some bottom margin */
+    transition: transform 0.3s ease; /* Add transition to image */
+}
+
+#favResults img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
